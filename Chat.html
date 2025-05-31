@@ -108,7 +108,7 @@
     appendMessage(message, 'user');
     messageInput.value = '';
 
-    const response = await fetch('http://localhost:8000/ai-chat', {
+    const response = await fetch('https://backendchat-owcf.onrender.com/ai-chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
